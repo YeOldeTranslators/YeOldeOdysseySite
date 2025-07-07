@@ -9,19 +9,17 @@
     <!-- Custom CSS for font and logo size -->
     <style>
         body {
-            font-family: 'Inter', sans-serif; /* Using Inter font */
+            font-family: 'Inter', sans-serif; 
         }
         .navbar-brand img {
-            max-height: 200px; /* Adjust logo size */
+            max-height: 200px;
             width: auto;
-            border-radius: 8px; /* Rounded corners for logo */
         }
         .navbar {
-            background-color: #343a40; /* Dark background for navbar */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-            border-radius: 12px; /* Rounded corners for the navbar itself */
-            margin: 20px; /* Add some margin around the navbar */
-            padding-bottom: 15px; /* Add padding at the bottom for the text */
+            background-color: #343a40; 
+            border-radius: 12px;
+            margin: 20px;
+            padding-bottom: 15px;
         }
         .navbar-brand-container {
             display: flex;
@@ -30,10 +28,12 @@
             width: 100%;
             text-align: center; /* Ensure text is centered */
         }
-        /* Hide the toggler as there are no collapseable items */
-        .navbar-toggler {
-            display: none;
-        }
+        footer {
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 20px;
+}
+
     </style>
 </head>
 <body data-bs-theme="dark">
@@ -50,16 +50,53 @@
         </div>
     </nav>
 
+    <div class="container mt-5 text-center">
+        <h1>What is Ye Olde Odyssey?</h1>
+        <p>Ye Olde Odyssey is a mod for the game "Super Mario Odyssey" by Nintendo, inspired by an AI Translator that takes English and translates it to "Ye Olde English" we realized that it might be funny to play Mario Odyssey with Everyone talking like they were in the 1700s. This mod is not aimed at being accurate and is instead aimed at being funny and entertaining.</p>
+    </div>
+
     <div class="container mt-5s text-center">
-        <h1>Screenshots Coming Soon!</h1>
-        <p>Stay tuned for updates and new content!</p>
+        <h1>Screenshots!</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Screenshot1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Screenshot2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./Screenshot3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+        <p>Stay tuned for updates and new content! More screenshots will be added soon.</p>
     </div>
     <div class="container mt-5 text-center">
         <h1>Release Timeline</h1>
-        <p>A demo will be available later this year.</p>
+        <p>A demo will HOPEFULLY be available later this year, but there are no guarantees. DO NOT GET YOUR HOPES UP.</p>
         <p>The full version of the mod will be released somewhere between 2025 and early 2027.</p>
+</div>
+<div class="container mt-5 text-center">
+    <h1>Progress Updates</h1>
+     <p>We are actively working on the mod and will share progress updates regularly. Due to the fact that we just started working on the mod do not expect major progress to be reached until we have gotten into a proper workflow.</p>
+        <div class="progress" role="progressbar">
+  <div class="progress-bar" style="width: 5%">5%</div>
     </div>
-
+    <hr>
+    <footer>
+  <p>The Ye Olde Translators Organization is not affiliated with nintendo or any of its products. Do not use our mods or other projects without crediting us.</p>
+  <p>For more info or if you have questions, join the <a href="https://discord.gg/ebxyrWYxVn">Umm12Modding discord server.</a></p>
+</footer>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
